@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angus The Cat</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="modal-content-primero" class="modal-content">
+        <div id="modal-inicio" class="modal">
+            <div class="modal-info">
+                <h2>Cześć!</h2>
+                <p>Please turn volume on for a better experience</p>
+                <div class="btn-iniciar-container">
+                    <div id="btn-iniciar"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modal-content-segundo" class="modal-content" style="display: none;">
+        <div id="modal-segundo" class="modal">
+            <div class="modal-msg">
+                <p id="texto-personalizado"></p>
+            </div>
+            <div class="btn-continuar-container">
+                <div id="btn-continuar" style="display: none;"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="container-video">
+        <video id="video1" class="videos" src="video1.mp4" style="display: none;"></video>
+        <video id="video2" class="videos" src="video2.mp4" style="display: none;"></video>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
